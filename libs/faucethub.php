@@ -40,7 +40,7 @@ class FaucetHub
     protected $currency;
     protected $timeout;
     public $last_status = null;
-    protected $api_base = "https://faucethub.io/api/v1/";
+    protected $api_base = "https://faucetpay.io/api/v1/";
 
     public function __construct($api_key, $currency = "BTC", $disable_curl = false, $verify_peer = true, $timeout = null) {
         $this->api_key = $api_key;
